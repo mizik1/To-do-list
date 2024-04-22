@@ -10,8 +10,8 @@ body {
   width: 300px;
   margin: 0 auto;
   margin-top: 40px;
-  background: white;
-  border-radius: 5px;
+  background: #63c5f7;
+  border-radius: 10px;
 }
 
 form {
@@ -68,4 +68,18 @@ li > crossOutButton {
   float: right;
   color: #025f70;
   font-weight: 800;
+}
+
+ul {
+  padding-left: 20px;
+  font-weight: bold;
+}
+ul li {
+  padding: 5px;
+  color: black;
+  font-weight: bold;
+}
+
+li {
+  font-size: 15px;
 }
