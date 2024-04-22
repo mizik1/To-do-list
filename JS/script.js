@@ -19,7 +19,7 @@ $(document).ready(function () {
   // Sorts the "ul" so that any "li" can be reordered
   $("ul").sortable();
 
-  //   Create X do users can delete "li" item
+  //   Create X for users to delete "li" item
   $(document).createTextNode("X"),
     function () {
       $(this).deleteButton.append(document.createTextNode("X"));
